@@ -24,6 +24,10 @@ System.out.printf("r1=r2=%2f:",r1);
 else
 {
 System.out.printf("complex number");
+double real=-b/e;
+double img=Math.sqrt(-d)/e;
+System.out.printf("r1=%2f+%2fi",real,img);
+System.out.printf("r1=%2f-%2fi",real,img);
 }
 }
 }

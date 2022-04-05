@@ -1,0 +1,21 @@
+package hello;
+import java.util.Scanner;
+public class factors {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       Scanner n=new Scanner(System.in);
+       int s=n.nextInt();
+       int i,r=1,d=0;
+       for(i=1;i<=s;i++)
+       {
+    	   if(s%i==0)
+    	   {
+    		   r=r*i;
+    		   d=d+i;
+    	   }
+       }
+    	   System.out.println("difference = "+(r-d));
+	}
+
+}

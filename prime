@@ -1,0 +1,23 @@
+package hello;
+import java.util.Scanner;
+public class prime {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         Scanner n=new Scanner(System.in);
+         int s=2;
+         int c;
+         while(s<=100)
+         {
+        	 c=0;
+         for(int i=1;i<=s;i++)
+         {
+        	 if(s%i==0)
+        		 c++;
+         }
+         if(c==2)
+        	 System.out.println(s+  " ");
+         s++;
+	}
+	}
+}

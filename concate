@@ -1,0 +1,16 @@
+package hello;
+import java.util.Scanner;
+public class concate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner c=new Scanner(System.in);
+      String str1,str2;
+      str1=c.nextLine();
+      str2=c.nextLine();
+      if(str1.contains(str2))
+    	  System.out.println("yes");
+      else
+    	  System.out.println("no");
+	}
+}

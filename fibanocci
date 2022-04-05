@@ -1,0 +1,37 @@
+package hello;
+import java.util.Scanner;
+public class fibanocci {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	      int x=0,y=1;
+      Scanner s=new Scanner(System.in);
+      int n=s.nextInt();
+      System.out.println(x);
+      System.out.println(y);
+      int c,sum=0;
+     //55 c=x+y;
+     /* while(c<=n)
+      {
+       if(c%2==0)
+    	  {
+    		  sum=sum+c;
+    	  }
+    	  x=y;
+    	  y=c;
+    	  System.out.println(c+" ");
+         c=x+y;
+      }*/
+      for(int i=3;i<=n;i++)
+      {
+    	  c=x+y;
+    	  x=y;
+    	  y=c;
+    	  if(c%2==0)
+    	  {
+    		  sum=sum+c;
+    	  }
+      }
+      System.out.println(sum);
+	}
+}

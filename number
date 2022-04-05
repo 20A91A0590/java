@@ -1,0 +1,22 @@
+package hello;
+import java.util.Scanner;
+public class number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+         Scanner n=new Scanner(System.in);
+         String str1;
+         int i,sum=0;
+         str1=n.nextLine();
+         char ch[]=str1.toCharArray();
+         for( i=0;i<ch.length;i++)
+         {
+         	if(Character.isDigit(ch[i]))
+         		//sum=sum+Integer.parseInt(ch[i]+" ");
+         	sum=sum+(ch[i]-48);
+         }
+         System.out.println(sum);
+         
+	}
+
+}

@@ -1,0 +1,22 @@
+package hello;
+import java.util.Scanner;
+class demo {
+     int x=10,y=20;
+     public static void SHOW()
+     {
+    	 System.out.println("GOOD MORNING");
+     }
+     public void display()
+     {
+    	 System.out.println("GOOD EVENING");
+     }
+	public static void main(String args[]) {
+		// TODO Auto-generated method stub
+        demo obj=new demo();
+        obj.display();
+        SHOW();
+        System.out.println("welcome");
+        System.out.println(obj.x);
+        System.out.println(obj.y);
+	}
+}

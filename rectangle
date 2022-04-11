@@ -1,0 +1,36 @@
+package hello;
+import java.util.Scanner;
+public class rectangle {
+int  l,b,h;
+public rectangle()
+{
+	System.out.println("default arg");
+}
+public rectangle(int n)
+{
+	System.out.println("parameterized with 1 args");
+	l=b=h=n;
+}
+
+public rectangle(int x,int y,int z)
+{
+	System.out.println("parameterized with 3 args");
+	l=x;
+	b=y;
+	h=z;
+}
+public int volume()
+{
+	return l*b*h;
+}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+rectangle r1=new rectangle();
+rectangle r2=new rectangle(6);
+rectangle r3=new rectangle(2,3,4);
+System.out.println( r1.volume());
+System.out.println( r2.volume());
+System.out.println( r3.volume());
+	}
+
+}

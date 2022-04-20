@@ -1,0 +1,35 @@
+import java.util.Scanner;
+class  A
+{
+	public void display()
+	{
+		System.out.println("parent display method");
+	}
+	public void msg()
+	{
+		System.out.println("parent display method");
+	}
+}
+class B extends A
+{
+	public void show()
+	{
+		super.display();
+		System.out.println("child show method");
+	}
+	public void msg()
+	{
+		System.out.println("child msg method");
+	}
+}
+public class inheritance {
+
+	public static void main(String[] args) {
+		B b=new B();
+		b.display();
+		b.msg();
+		b.show();
+		// TODO Auto-generated method stub
+
+}
+}

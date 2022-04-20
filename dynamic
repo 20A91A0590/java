@@ -1,0 +1,35 @@
+import java.io.*;
+class a
+{
+	public void m1()
+	{
+		System.out.println("a method");
+	}
+}
+class b extends a
+{
+	public void m1()
+	{
+		System.out.println("b method");
+	}
+}
+class c extends a
+{
+	public void m1()
+	{
+		System.out.println("c method");
+	}
+}
+public class dynamic
+{
+	public static void main(String[] args)
+	{
+		a A;
+		A=new a();
+		A.m1();
+		A=new b();
+		A.m1();
+		A=new c();
+		A.m1();
+	}
+}

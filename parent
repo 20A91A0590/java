@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.Scanner;
+class parent1
+{
+	public parent1()
+	{
+		this("aditya");
+		System.out.println("good morning guest");
+	}
+	public parent1(String name)
+	{
+		System.out.println("good morning "+name);
+	}
+}
+public class super2
+{
+	public static void main(String[] args)
+	{
+		parent1 p=new parent1();
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class largest
+{
+    public static void main(String args[])
+    {
+        Scanner s=new Scanner(System.in);
+        int n=s.nextInt();
+    int x,y,i;
+    for(i=1;i<=n;i++)
+    {
+        x=s.nextInt();
+        y=s.nextInt();
+        System.out.println(x+y);
+    }
+    }
+}

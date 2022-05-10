@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class evenarr
+{
+    public static void main(String args[])
+    {
+        Scanner e=new Scanner(System.in);
+        int n=e.nextInt();
+        int i,cnt=0;
+        int a[]=new int[n];
+        for(i=0;i<n;i++)
+        {
+            a[i]=e.nextInt();
+        }
+         for(i=0;i<n;i++)
+    {
+    if(a[i]%2!=0)
+    {
+        cnt++;
+    
+    }
+    }
+    if(cnt==0)
+    {
+        System.out.println("True"); 
+    }
+    else
+    {
+        System.out.println("False");
+    }
+    }
+}

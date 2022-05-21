@@ -1,0 +1,51 @@
+import java.util.Scanner;
+class decimall
+{
+	int x;
+	Scanner sc=new Scanner(System.in);
+	
+	public void getNo()
+	{
+		System.out.println("Enter a number:");
+		x=sc.nextInt();
+	}
+	void show()
+	{
+		System.out.println("decimal value is "+x);
+	}
+
+}
+class hexaa extends decimall
+{
+	void show()
+	{
+		super.show();
+		System.out.println("Converted decimal to  hexa "+Integer.toHexString(x));
+	}
+}
+class octall extends decimall
+{
+void show()
+	{
+		super.show();
+		System.out.println("Converted decimal to  octal "+Integer.toOctalString(x));
+	}
+}
+public class instance {
+	public static void Dis(decimall n)
+	{
+		if(n instanceof hexaa)
+			System.out.println("hexa methods instance:");
+		else if(n instanceof octall)
+			System.out.println("octal methods instance:");
+		n.getNo();
+		n.show();
+			
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Dis(new hexaa());
+Dis(new octall());
+	}
+
+}

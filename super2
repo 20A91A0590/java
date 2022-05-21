@@ -1,0 +1,245 @@
+package hello;
+import java.io.*;
+import java.util.Scanner;
+/*class parent1
+	 {
+		 int x;
+		 public void setx(int p)
+		 {
+			 x=p;
+		 }
+		 public int getx()
+		 {
+			 return x;
+		 }
+	 }
+class child extends parent1
+{
+	int y;
+	public void sety(int p)
+	 {
+		 y=p;
+	 }
+
+	public int gety()
+	{
+		return y;
+	}
+}
+	 class inheritance {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("parent -> parent");	
+parent1 p=new parent1();
+p.setx(100);
+System.out.println(p.getx());
+System.out.println();
+child c=new child();
+c.setx(101);
+System.out.println(c.getx());
+c.sety(201);
+System.out.println(c.gety());
+System.out.println("parent -> child");
+parent1 p1= new child();
+p1.setx(301);
+System.out.println(p1.getx());
+	}
+}*/
+/*class grandparent
+{
+			 int x;
+			 public void setx(int p)
+			 {
+				 x=p;
+			 }
+			 public int getx()
+			 {
+				 return x;
+			 }
+		 }
+	class parent extends grandparent
+	{
+		int y;
+		public void sety(int q)
+		 {
+			 y=q;
+		 }
+
+		public int gety()
+		{
+			return y;
+		}
+	}
+	class child extends parent
+	{
+		int z;
+		public void setz(int r)
+		 {
+			 z=r;
+		 }
+
+		public int getz()
+		{
+			return z;
+		}
+	}
+		 class inheritance {
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub	
+			child c=new child();
+			c.setx(100);
+			c.sety(200);
+			c.setz(300);
+			System.out.println(c.getx());
+			System.out.println(c.gety());
+			System.out.println(c.getz());
+			}
+	}*/
+/*class par1
+{
+	int x;
+	public void setX(int p)
+	{
+		x=p;
+	}
+	public int getX()
+	{
+		return x;
+	}
+}
+class child1 extends par1
+{
+	int y;
+	public void setY(int p)
+	{
+		y=p;
+	}
+	public int getY()
+	{
+		return y;
+	}
+}
+class child2 extends par1
+{
+	int z;
+	public void setZ(int p)
+	{
+		z=p;
+	}
+	public int getZ()
+	{
+		return z;
+	}
+}
+public class inheritance {
+
+	public static void main(String[] args) {
+		child1 c1=new child1();
+		c1.setX(100);
+		System.out.println(c1.getX());
+		child2 c2=new child2();
+		c2.setX(1000);
+		System.out.println(c2.getX());
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}*/
+/*class  A
+{
+	public void display()
+	{
+		System.out.println("parent display method");
+	}
+	public void msg()
+	{
+		System.out.println("parent display method");
+	}
+}
+class B extends A
+{
+	public void show()
+	{
+		super.display();
+		System.out.println("child show method");
+	}
+	public void msg()
+	{
+		System.out.println("child msg method");
+	}
+}
+public class inheritance {
+
+	public static void main(String[] args) {
+		B b=new B();
+		b.display();
+		b.msg();
+		b.show();
+		// TODO Auto-generated method stub
+
+}
+}
+*/
+/*class number
+{
+	int x;
+	Scanner s=new Scanner(System.in);
+	public void getn()
+	{
+		System.out.println("enter a numbber");
+		x=s.nextInt();
+	}
+	void show()
+	{
+		System.out.println("decimal:"+x);
+	}
+}
+class hexa extends number
+{
+	void show()
+	{
+		super.show();
+		System.out.println("hexa:" +Integer.toHexString(x));
+	}
+}
+class octal extends number
+{
+	void show()
+	{
+		super.show();
+		System.out.println("octal: " +Integer.toOctalString(x));
+	}
+}
+public class methodoverriding2
+{
+	public static void main(String[] args)
+	{
+		hexa h=new hexa();
+		octal o=new octal();
+		h.getn();
+		h.show();
+		System.out.println();
+		o.getn();
+		o.show();
+	}
+}*/
+/*class parent1
+{
+	public parent1()
+	{
+		this("aditya");
+		System.out.println("good morning guest");
+	}
+	public parent1(String name)
+	{
+		System.out.println("good morning "+name);
+	}
+}
+public class super2
+{
+	public static void main(String[] args)
+	{
+		parent1 p=new parent1();
+	}
+}*/

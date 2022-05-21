@@ -1,0 +1,49 @@
+package hello;
+import java.util.Scanner;
+/*class numb
+{
+	int x;
+	Scanner s=new Scanner(System.in);
+	public void getn()
+	{
+		System.out.println("enter a number");
+		x=s.nextInt();
+	}
+	void show()
+	{
+		System.out.println("decimal :"+x);
+	}
+}
+class hexa extends numb
+{
+	void show()
+	{
+		super.show();
+		System.out.println("hexa:" +Integer.toHexString(x));
+	}
+}
+class octal extends numb
+{
+	void show()
+	{
+		super.show();
+		System.out.println("octal: " +Integer.toOctalString(x));
+	}
+}
+public class numbe
+{
+	public static void disp(numb n)
+	{
+		if(n instanceof hexa)
+			System.out.println("hexa class instance");
+		else if(n instanceof octal)
+			System.out.println("octal class instance");
+		n.getn();
+		n.show();
+	}
+	public static void main(String[] args)
+	{
+		disp(new hexa());
+		disp(new octal());
+	}
+}

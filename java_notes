@@ -1,0 +1,126 @@
+control statement--->control the flow of execution
+selective(or)conditional--->
+if,
+if(condition)
+{
+//state
+}
+if else,
+if(condition)
+{
+//state
+}
+else
+{
+//state
+}
+if else if,
+if(condition)
+{//state}
+else if(conditoin)
+{//state}
+else
+{//state}
+nested if
+if(condition)
+{
+if(condition)
+{
+//state
+}
+//state
+}
+switch.
+switch(var)
+{
+case1:
+//statements;
+break;
+}
+{
+case2:
+//statements;
+break;
+}
+   
+write a program to display the given digits(0-9) in words as follows;
+input=9
+output=nine;
+write a program to display color name by taking input as color code
+input=r
+output=red
+go for the type casting.
+looping---->for(OR) for each,while,do while.
+string-->immutable new
+string buffer--->mutable
+string s1=new string("aditya"):
+int len=s1.length();
+System.out.println(s1+" " +len);
+string s1=new string("aditya");
+string s2=new string("aditya");
+string s3=("aditya");string  content variable           
+string s4=("aditya");
+System.out.println(s1==s2);//false because both are store in different memory location
+System.out.println(s1.equals(s2));//true
+System.out.println(s3==s4);//true
+System.out.println(s3.equals(s4));//true
+//==-> refernce comparission equal( )--> content comparission//
+/*
+string s11=new string("aditya");
+System.out.println(s11.charat(20));
+string s3=new string("aditya");
+System.out.println(s1.lastIndexof('i'));
+System.out.println(s1.indexof('a'));//5
+System.out.println(s1.lastIndexof('a'));//5
+*/
+/*
+string s1=new string("aditya group of colleges");
+system.out.println(s1.replace('o','e'));
+string s2=new string("aditya college is the best college");
+system.out.println(s1.replacefirst('college','group'));
+system.out.println(s1.replaceall('college','group'));
+*/
+/*
+string s1=new string("arehowruaresyeare");
+int l=(s1.length()-s1.replaceAll("are"," ").length( ))/3;
+system.out.println(l);
+*/
+ARRAY
+array is a finite ordered collection of homogenous elements. the main adv of array is it improves code readability disadv of an array
+1.the array size is fixed size
+2.insertion and deletion of an element in middle of the array is difficult.
+syntax:
+datatype arr[]=new datatype[size]
+size: char,byte,short,int.
+initialization:
+1.compile time:At the time of declaring an array if you are assign values to array is called compiletime initialization.
+int x[]={10,20,30,40};
+for(datatype ele:arrayname)
+{
+}
+2.run time: At the time of program 
+                                                                           OOPS
+object
+class
+encapuslation
+data abstraction
+inhritence
+polymorphism
+                                                                           
+
+
+final keyword
+to avoid member over ridding .we have to use final keyword before the parent class member method.
+class parent
+{
+final void show()
+}
+class child extends parent
+{
+void show()
+{}//error is displayed
+}
+
+
+
+
